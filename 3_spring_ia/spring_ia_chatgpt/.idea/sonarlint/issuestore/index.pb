@@ -1,10 +1,6 @@
 
-U
-%src/main/java/pe/edu/tecsup/Main.java,0/8/0825bef62573750eaf94e67b3b917acbf6ec316b
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-g
-7src/main/java/pe/edu/tecsup/webs/ChatGptController.java,1/9/19e8b57cce6677e23858ec708973ca3a78a4904f
 j
 :src/main/java/pe/edu/tecsup/ia/webs/ChatGptController.java,4/4/4454b16421be8779d1120e6f84579da6aa4378ee
 k

@@ -1,7 +1,6 @@
 package pe.edu.tecsup.ia.services;
 
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +17,7 @@ public class ChatGptService {
     }
 
 
-    public String generateQuestions(String prompt) {
+    public String askQuestion(String prompt) {
 
         String response = chatClient
                 .prompt()

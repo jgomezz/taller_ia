@@ -5,8 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @Slf4j
 @SpringBootTest
 public class ChatGptServiceTest {
@@ -15,13 +13,13 @@ public class ChatGptServiceTest {
     ChatGptService chatGptService;
 
     @Test
-    void generateQuestions() {
+    void askQuestion() {
 
         log.info("Start test");
 
         String question = "Cuentame un chiste";
 
-        String response = this.chatGptService.generateQuestions(question);
+        String response = this.chatGptService.askQuestion(question);
 
         log.info(response);
     }

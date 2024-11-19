@@ -18,9 +18,9 @@ public class ChatGptController {
     private ChatGptService chatGptService;
 
     @PostMapping("/generate-questions")
-    public ResponseEntity<String> generateQuestions(@RequestBody Map<String, Object> payload) {
+    public ResponseEntity<String> askQuestion(@RequestBody Map<String, Object> payload) {
         String prompt = (String) payload.get("prompt");
-        String response = chatGptService.generateQuestions(prompt);
+        String response = chatGptService.askQuestion(prompt);
         return ResponseEntity.ok(response);
     }
 }
