@@ -18,9 +18,10 @@ public class ChatGptServiceTest {
         log.info("Start test");
 
         String question = "Cuentame un chiste";
+        log.info("Pregunta : " + question);
 
         String response = this.chatGptService.askQuestion(question);
+        log.info("Respuesta : " + response);
 
-        log.info(response);
     }
 }
