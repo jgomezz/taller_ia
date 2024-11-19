@@ -1,0 +1,17 @@
+# Server Port
+server:
+  port: 8080
+
+spring:
+  # OpenAI API Key
+  ai:
+    openai:
+      api-key : ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-3.5-turbo
+
+logging :
+    level :
+        org.springframework.security : DEBUG
+        org.springframework.security.oauth2 : DEBUG
