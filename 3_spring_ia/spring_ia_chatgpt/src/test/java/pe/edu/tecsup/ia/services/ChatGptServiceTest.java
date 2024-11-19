@@ -19,7 +19,7 @@ public class ChatGptServiceTest {
 
         log.info("Start test");
 
-        String question = "Give an joke";
+        String question = "Cuentame un chiste";
 
         String response = this.chatGptService.generateQuestions(question);
 
