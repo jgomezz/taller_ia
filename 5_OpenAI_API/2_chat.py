@@ -37,7 +37,7 @@ def math_chatbot():
             )
             
             # Get the AI's response
-            assistant_response = response["choices"][0]["message"]["content"]
+            assistant_response = response.choices[0].message.content
             
             # Print the assistant's response
             print(f"Math Chatbot: {assistant_response}")
@@ -47,7 +47,6 @@ def math_chatbot():
         
         except Exception as e:
             print(f"An error occurred: {e}")
-            break
 
 
 # Run the chatbot
