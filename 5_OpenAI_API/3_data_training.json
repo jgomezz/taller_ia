@@ -1,0 +1,3 @@
+{"messages": [{"role": "user", "content": "Cual es tu horario laboral?"}, {"role": "assistant", "content": "El horario laboral es de 8 am a 6 pm, de Lunes a Viernes."}]}
+{"messages": [{"role": "user", "content": "A que hora se almuerza en el trabajo?"}, {"role": "assistant", "content": "Se almuerza de 1 pm a 2 pm , de Lunes a Viernes."}]}
+{"messages": [{"role": "user", "content": "Pueden pedir permiso laboral?"}, {"role": "assistant", "content": "Se puede solicitar un dia de permiso laboral por temas personales"}]}

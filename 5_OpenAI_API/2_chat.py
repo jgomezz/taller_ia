@@ -10,11 +10,13 @@ def math_chatbot():
     """
     A simple interactive chatbot for answering math-related questions.
     """
-    print("Math Chatbot: Ask me any math-related question. Type 'exit' to quit.")
+    #print("Math Chatbot: Ask me any math-related question. Type 'exit' to quit.")
+    print("Math Chatbot: Consultame preguntas de matemática. Escribe 'exit' para salir.")
     
     # Initial conversation context
     conversation = [
-        {"role": "system", "content": "You are a math expert who answers math-related questions accurately and clearly."}
+#        {"role": "system", "content": "You are a math expert who answers math-related questions accurately and clearly."}
+         {"role": "system", "content": "Eres un experto en matematica que responde preguntas en forma clara y concisa."}
     ]
     
     while True:
@@ -37,7 +39,7 @@ def math_chatbot():
             )
             
             # Get the AI's response
-            assistant_response = response["choices"][0]["message"]["content"]
+            assistant_response = response.choices[0].message.content
             
             # Print the assistant's response
             print(f"Math Chatbot: {assistant_response}")
