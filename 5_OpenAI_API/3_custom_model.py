@@ -166,6 +166,7 @@ if __name__ == '__main__':
 
     # Step 4: Monitor Fine-Tuning
     # Fine-tuned model: ft:gpt-4o-mini-2024-07-18:personal::AXHeyHAt
+    # Fine-tuned model: ft:gpt-4o-mini-2024-07-18:personal::AXTjPMRT
     model_id = monitor_fine_tune(fine_tune_id)
     if not model_id:
         exit(-1)
