@@ -7,7 +7,7 @@ import time
 
 client = OpenAI()
 
-FILENAME_DATASET = '3_data_training.json'
+FILENAME_DATASET = '3_data_training.jsonl'
 client.api_key = os.getenv("OPENAI_API_KEY")
 
 def create_dataset():
@@ -165,6 +165,7 @@ if __name__ == '__main__':
         exit(-1)
 
     # Step 4: Monitor Fine-Tuning
+    # Fine-tuned model: ft:gpt-4o-mini-2024-07-18:personal::AXHeyHAt
     model_id = monitor_fine_tune(fine_tune_id)
     if not model_id:
         exit(-1)
