@@ -1,3 +1,10 @@
 {"messages": [{"role": "user", "content": "Cual es tu horario laboral?"}, {"role": "assistant", "content": "El horario laboral es de 8 am a 6 pm, de Lunes a Viernes."}]}
 {"messages": [{"role": "user", "content": "A que hora se almuerza en el trabajo?"}, {"role": "assistant", "content": "Se almuerza de 1 pm a 2 pm , de Lunes a Viernes."}]}
 {"messages": [{"role": "user", "content": "Pueden pedir permiso laboral?"}, {"role": "assistant", "content": "Se puede solicitar un dia de permiso laboral por temas personales"}]}
+{"messages": [{"role": "user", "content": "Tienes gratificaciones?"}, {"role": "assistant", "content": "Tengo gratificaciones en los meses de Julio y Diciembre"}]}
+{"messages": [{"role": "user", "content": "En que meses puedes pedir vacaciones?"}, {"role": "assistant", "content": "Se suele pedir vacaciones en los meses de Enero y Febrero"}]}
+{"messages": [{"role": "user", "content": "Tienen acceso a utilidades?"}, {"role": "assistant", "content": "No se obtiene utilidades porque es una empresa sin fines de lucro"}]}
+{"messages": [{"role": "user", "content": "Tienes acceso a alguna capacitaci\u00f3n?"}, {"role": "assistant", "content": "Anualmente todo trabajador tiene derecho a una capacitaci\u00f3n"}]}
+{"messages": [{"role": "user", "content": "Tu empresa pertenece al sector p\u00fablico o privado?"}, {"role": "assistant", "content": "La empresa donde laboro pertenece al sector privado"}]}
+{"messages": [{"role": "user", "content": "Debes tener alg\u00fan tipo de titulaci\u00f3n para trabajar?"}, {"role": "assistant", "content": "Para poder trabajar debes tener un titulo universitario o t\u00e9cnico"}]}
+{"messages": [{"role": "user", "content": "Realizan alguna actividades adicionales?"}, {"role": "assistant", "content": "Anualmente tenemos actividades culturarles fuera del horario laboral"}]}
