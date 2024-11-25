@@ -39,9 +39,9 @@ def explain_code(code, language='Python'):
 
 if __name__ == '__main__':
 
-    prompt = "Escribe un codigo en Python que me permita simular el protocolo TCP ."
+    prompt = "Escribe un código en Python que me permita simular el protocolo TCP ."
     code = generate_code(prompt)
-    print(f"Codigo generado:\n{code}")
+    print(f"Código generado:\n{code}")
 
     explanation = explain_code(code)
     print(f"Explicacion:\n{explanation}")
