@@ -1,6 +1,7 @@
 ### Virtual Environment  (Python 3.10.9)
     python3 -m venv myenv
     source myenv/bin/activate
+    pip install pycryptodome
     deactivate (optional)
 
 ## Visual Studio Code
