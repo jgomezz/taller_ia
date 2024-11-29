@@ -17,7 +17,7 @@ public class ChatGptServiceTest {
 
         log.info("Start test");
 
-        String question = "Cuentame un chiste";
+        String question = "¿Cuál es la capital de España?";
         log.info("Pregunta : " + question);
 
         String response = this.chatGptService.askQuestion(question);

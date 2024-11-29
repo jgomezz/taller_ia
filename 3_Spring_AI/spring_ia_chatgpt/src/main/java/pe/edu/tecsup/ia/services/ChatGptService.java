@@ -10,21 +10,18 @@ public class ChatGptService {
     @Value("${openai.api-key}")
     private String openaiApiKey;
 
-    private   ChatClient chatClient;
+    private ChatClient chatClient;
 
     public ChatGptService(ChatClient.Builder chatClientBuilder) {
         this.chatClient = chatClientBuilder.build();
     }
 
-
     public String askQuestion(String prompt) {
-
         String response = chatClient
                 .prompt()
                 .user(prompt)
                 .call()
                 .content();
-
         return response;
     }
 }

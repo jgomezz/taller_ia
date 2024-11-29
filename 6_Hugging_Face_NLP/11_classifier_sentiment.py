@@ -1,18 +1,10 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
-
-
 # Cargar el tokenizer y el modelo
 # https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment
 tokenizer = AutoTokenizer.from_pretrained("nlptown/bert-base-multilingual-uncased-sentiment")
 model = AutoModelForSequenceClassification.from_pretrained("nlptown/bert-base-multilingual-uncased-sentiment")
 
-'''
-# Cargar el tokenizer y el modelo
-# https://huggingface.co/edumunozsala/roberta_bne_sentiment_analysis_es
-tokenizer = AutoTokenizer.from_pretrained("edumunozsala/roberta_bne_sentiment_analysis_es")
-model = AutoModelForSequenceClassification.from_pretrained("edumunozsala/roberta_bne_sentiment_analysis_es")
-'''
 # Texto en español
 texto = "Este producto es excelente y superó mis expectativas."
 # texto = "Este producto no es bueno y apenas cubre algo de mis expectativas."

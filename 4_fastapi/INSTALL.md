@@ -1,14 +1,19 @@
 ### Virtual Environment  (Python 3.10.9)
     python3 -m venv myenv
     source myenv/bin/activate
-    pip install fastapi uvicorn openai
+    pip install fastapi uvicorn 
+    pip install openai (optional)
     deactivate (optional)
 
 ### Run
     uvicorn app.main:app --reload
 
 ### Test
+    http://127.0.0.1:8000
+
+### Documentation
     http://127.0.0.1:8000/docs
+
 
 ### requirements.txt
     pip freeze > requirements.txt
